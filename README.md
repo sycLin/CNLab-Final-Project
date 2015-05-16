@@ -29,3 +29,17 @@ Computer Networking Laboratory, NTU CSIE.
 * [Python SSH tools](https://wiki.python.org/moin/SecureShell)
 * [Chilkat](https://www.chilkatsoft.com/python.asp)
 
+## Workload Distribution
+
+|Members|Duties|Done?|
+|:------|:-----|:---:|
+|Steven|**(null)**|**not-yet**|
+|Hank|**(null)**|**not-yet**|
+|GDog|**(null)**|**not-yet**|
+|Brian|**(null)**|**not-yet**|
+|Ben|**(null)**|**not-yet**|
+|Adam|**(null)**|**not-yet**|
+
+> members are sorted counter-alphabetically.
+
+
