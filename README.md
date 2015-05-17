@@ -33,12 +33,12 @@ Computer Networking Laboratory, NTU CSIE.
 
 |Members|Duties|Done?|
 |:------|:-----|:---:|
-|Steven|**(null)**|**not-yet**|
-|Hank|**(null)**|**not-yet**|
-|GDog|**(null)**|**not-yet**|
-|Brian|**(null)**|**not-yet**|
-|Ben|**(null)**|**not-yet**|
-|Adam|**(null)**|**not-yet**|
+|Steven|*(null)*|*not-yet*|
+|Hank|*(null)*|*not-yet*|
+|GDog|*(null)*|*not-yet*|
+|Brian|*(null)*|*not-yet*|
+|Ben|*(null)*|*not-yet*|
+|Adam|*(null)*|*not-yet*|
 
 > members are sorted counter-alphabetically.
 
