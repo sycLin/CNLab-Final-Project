@@ -18,7 +18,7 @@ Computer Networking Laboratory, NTU CSIE.
 
 ## Requirements (goals)
 
-- [ ] Construct two normal VMs, say VM1 and VM2.
+- [x] Construct two normal VMs, say VM1 and VM2.
 - [ ] Build a web server on another (the 3rd) VM to display all process info of VM1 and VM2.
 - [ ] Users can kill processes of VM1 and VM2 through the admin page of web server.
 - [ ] Zombie processes should be killed automatically and display what have been killed on the webpage.
@@ -39,6 +39,19 @@ Computer Networking Laboratory, NTU CSIE.
 |Brian|*(null)*|*not-yet*|
 |Ben|*(null)*|*not-yet*|
 |Adam|*(null)*|*not-yet*|
+
+|Done?|Job|Who?|Description|
+|:---:|:--|:---|:----------|
+|***YES***|Env setup|Steven|setup vm, install packages, activate services|
+|***NO***|SSH tunnel connection|Steven|establish ssh connection|
+|***NO***|PHP code|Steven|render webpages based on templates|
+|***NO***|HTML templates|Brian|provide all webpage templates|
+|***NO***|HTML templates|GDog|procide all webpage templates|
+|***NO***|CSS styling|B&G|css styling for webpages|
+|***NO***|Process Killing|Hank|especially deal with zombies|
+|***NO***|Portability|Hank|unix-like system first, and ...|
+|***NO***|Debugging|Adam|maintenance issues including debuggin|
+
 
 > members are sorted counter-alphabetically.
 
