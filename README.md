@@ -34,14 +34,14 @@ Computer Networking Laboratory, NTU CSIE.
 |Done?|Job|Who?|Description|
 |:---:|:--|:---|:----------|
 |***YES***|Env setup|Steven|setup vm, install packages, activate services|
-|***NO***|SSH tunnel connection|Steven|establish ssh connection|
+|***NO***|SSH tunnel|Steven|establish ssh connection|
 |***NO***|PHP code|Steven|render webpages based on templates|
 |***NO***|HTML templates|Brian|provide all webpage templates|
 |***NO***|HTML templates|GDog|provide all webpage templates|
 |***NO***|CSS styling|B&G|css styling for webpages|
 |***NO***|Process Killing|Hank|especially deal with zombies|
 |***NO***|Portability|Hank|unix-like system first, and ...|
-|***NO***|Debugging|Adam|maintenance issues including debuggin|
+|***NO***|Debugging|Adam|maintenance issues including debugging|
 
 
 
