@@ -31,15 +31,6 @@ Computer Networking Laboratory, NTU CSIE.
 
 ## Workload Distribution
 
-|Members|Duties|Done?|
-|:------|:-----|:---:|
-|Steven|*(null)*|*not-yet*|
-|Hank|*(null)*|*not-yet*|
-|GDog|*(null)*|*not-yet*|
-|Brian|*(null)*|*not-yet*|
-|Ben|*(null)*|*not-yet*|
-|Adam|*(null)*|*not-yet*|
-
 |Done?|Job|Who?|Description|
 |:---:|:--|:---|:----------|
 |***YES***|Env setup|Steven|setup vm, install packages, activate services|
