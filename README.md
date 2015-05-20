@@ -43,6 +43,23 @@ Computer Networking Laboratory, NTU CSIE.
 |***NO***|Portability|Hank|unix-like system first, and ...|
 |***NO***|Debugging|Adam|maintenance issues including debugging|
 
+## Milestone
 
+### Milestone #1
+
+- [ ] Successfully fetch process information.
+- [ ] Finish the webpage prototypes for displaying process information.
+
+### Milestone #2
+
+- [ ] Users are able to kill processes.
+- [ ] Automatically kill zombie processes. (tentative)
+- [ ] Finish the webpage prototypes for administration use.
+
+### Milestone #3
+
+- [ ] Extra Functionality (e.g., CPU usage, Memory usage, Disk usage, etc.)
+- [ ] Complete Web GUI.
+- [ ] Portability: Linux(must-have), Mac OS X(better-have), Windows(might-have).
 
 
