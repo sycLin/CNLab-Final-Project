@@ -6,7 +6,7 @@ Computer Networking Laboratory, NTU CSIE.
 
 ## Topic
 
-監控機器服務架設
+Web-based Monitoring Service
 
 ## Important Dates
 
