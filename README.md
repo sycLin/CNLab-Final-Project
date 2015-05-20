@@ -37,7 +37,7 @@ Computer Networking Laboratory, NTU CSIE.
 |***NO***|SSH tunnel connection|Steven|establish ssh connection|
 |***NO***|PHP code|Steven|render webpages based on templates|
 |***NO***|HTML templates|Brian|provide all webpage templates|
-|***NO***|HTML templates|GDog|procide all webpage templates|
+|***NO***|HTML templates|GDog|provide all webpage templates|
 |***NO***|CSS styling|B&G|css styling for webpages|
 |***NO***|Process Killing|Hank|especially deal with zombies|
 |***NO***|Portability|Hank|unix-like system first, and ...|
