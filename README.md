@@ -36,6 +36,7 @@ Web-based Monitoring Service
 |***YES***|Env setup|Steven|setup VMs, install packages, activate services|
 |***NO***|SSH tunnel|Steven|establish ssh connection|
 |***NO***|PHP code|S&Ben|render webpages based on templates|
+|***NO***|JS|Steven|perhaps for some useful function implementations|
 |***NO***|HTML templates|Brian|provide all webpage templates|
 |***NO***|HTML templates|GDog|provide all webpage templates|
 |***NO***|CSS styling|B&G|CSS styling for webpages|
