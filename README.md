@@ -38,7 +38,7 @@ Computer Networking Laboratory, NTU CSIE.
 |***NO***|PHP code|Steven|render webpages based on templates|
 |***NO***|HTML templates|Brian|provide all webpage templates|
 |***NO***|HTML templates|GDog|provide all webpage templates|
-|***NO***|CSS styling|B&G|css styling for webpages|
+|***NO***|CSS styling|B&G|CSS styling for webpages|
 |***NO***|Process Killing|Hank|especially deal with zombies|
 |***NO***|Portability|Hank|unix-like system first, and ...|
 |***NO***|Debugging|Adam|maintenance issues including debugging|
