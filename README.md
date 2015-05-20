@@ -33,7 +33,7 @@ Computer Networking Laboratory, NTU CSIE.
 
 |Done?|Job|Who?|Description|
 |:---:|:--|:---|:----------|
-|***YES***|Env setup|Steven|setup vm, install packages, activate services|
+|***YES***|Env setup|Steven|setup VMs, install packages, activate services|
 |***NO***|SSH tunnel|Steven|establish ssh connection|
 |***NO***|PHP code|Steven|render webpages based on templates|
 |***NO***|HTML templates|Brian|provide all webpage templates|
