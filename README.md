@@ -43,7 +43,7 @@ Computer Networking Laboratory, NTU CSIE.
 |***NO***|Portability|Hank|unix-like system first, and ...|
 |***NO***|Debugging|Adam|maintenance issues including debugging|
 
-## Milestone
+## Milestones
 
 ### Milestone #1
 
@@ -52,9 +52,10 @@ Computer Networking Laboratory, NTU CSIE.
 
 ### Milestone #2
 
-- [ ] Users are able to kill processes.
-- [ ] Automatically kill zombie processes. (tentative)
 - [ ] Finish the webpage prototypes for administration use.
+- [ ] Users are able to kill processes through web GUI.
+- [ ] Users are able to add/delete/edit machines that are monitored through web GUI.
+- [ ] Automatically kill zombie processes. (tentative)
 
 ### Milestone #3
 
