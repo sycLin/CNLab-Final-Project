@@ -37,7 +37,7 @@ Web-based Monitoring Service
 |***YES***|SSH tunnel|Steven|establish ssh connection|
 |*on-going*|PHP code|S&Ben|render webpages based on templates|
 |***NO***|Router monitoring|Everybody|control the flow of router|
-|***NO***|JS|Steven|perhaps for some useful function implementations|
+|***NO***|JS|Steven|perhaps for some useful functions|
 |*on-going*|HTML templates|Ben|provide all webpage templates|
 |***NO***|HTML templates|GDog|provide all webpage templates|
 |*on-going*|CSS styling|B&G|CSS styling for webpages|
@@ -49,8 +49,8 @@ Web-based Monitoring Service
 
 ### Milestone #1
 
-- [ ] Successfully fetch process information.
-- [ ] Finish the webpage prototypes for displaying process information.
+- [x] Successfully fetch process information.
+- [x] Finish the webpage prototypes for displaying process information.
 
 ### Milestone #2
 
