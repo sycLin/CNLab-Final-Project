@@ -19,7 +19,7 @@ Web-based Monitoring Service
 ## Requirements (goals)
 
 - [x] Construct two normal VMs, say VM1 and VM2.
-- [ ] Build a web server on another (the 3rd) VM to display all process info of VM1 and VM2.
+- [x] Build a web server on another (the 3rd) VM to display all process info of VM1 and VM2.
 - [ ] Users can kill processes of VM1 and VM2 through the admin page of web server.
 - [ ] Zombie processes should be killed automatically and display what have been killed on the webpage.
 
@@ -34,13 +34,13 @@ Web-based Monitoring Service
 |Done?|Job|Who?|Description|
 |:---:|:--|:---|:----------|
 |***YES***|Env setup|Steven|setup VMs, install packages, activate services|
-|***NO***|SSH tunnel|Steven|establish ssh connection|
-|***NO***|PHP code|S&Ben|render webpages based on templates|
+|***YES***|SSH tunnel|Steven|establish ssh connection|
+|*on-going*|PHP code|S&Ben|render webpages based on templates|
 |***NO***|Router monitoring|Everybody|control the flow of router|
 |***NO***|JS|Steven|perhaps for some useful function implementations|
-|***NO***|HTML templates|Brian|provide all webpage templates|
+|*on-going*|HTML templates|Ben|provide all webpage templates|
 |***NO***|HTML templates|GDog|provide all webpage templates|
-|***NO***|CSS styling|B&G|CSS styling for webpages|
+|*on-going*|CSS styling|B&G|CSS styling for webpages|
 |***NO***|Process Killing|Hank|especially deal with zombies|
 |***NO***|Portability|Hank|unix-like system first, and ...|
 |***NO***|Debugging|Adam|maintenance issues including debugging|
