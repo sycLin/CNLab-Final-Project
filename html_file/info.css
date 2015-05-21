@@ -1,0 +1,14 @@
+.some_form
+{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1500px;
+	background: #F7F7F7;
+
+}
+
+.header
+{
+	border-bottom: 1px solid #E4E4E4;
+	padding: 0px 0px 10px 40px;
+}
