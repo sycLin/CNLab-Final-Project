@@ -1,0 +1,28 @@
+
+#Logo
+{
+	border-bottom: 1px solid #E4E4E4;
+	padding: 0px 0px 10px 40px;
+
+}
+
+h1
+{
+	text-align: center;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+form span
+{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+div
+{
+	margin: 0px auto;
+	width: 700px;
+	height: 300px;
+	border: 1px solid #000000;
+}
