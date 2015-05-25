@@ -2,6 +2,16 @@
 
 Final project of CNLab course. (40% of the term score)
 
+> 40% x 10% 問題定義
+
+> 40% x 35% 方案設計與創新度
+
+> 40% x 30% 技術性架構與使用者經驗
+
+> 40% x 10% 作品展演
+
+> 40% x 15% 專題結報內容
+
 Computer Networking Laboratory, NTU CSIE.
 
 ## Topic
