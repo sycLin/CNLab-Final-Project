@@ -81,10 +81,11 @@ p {
 }
 
 select {
-	
+	background: #FFF url('down-arrow.png') no-repeat right;
     appearance:none;
     -webkit-appearance:none; 
     -moz-appearance: none;
+
     text-indent: 0.01px;
     text-overflow: '';
     width: 15%;
@@ -179,10 +180,23 @@ table {
     border-spacing: 0;
     font: normal 20px Arial, sans-serif;
     width: 40%;
+    margin-bottom: 50px;
 }
 
-table tr {
-	background-color: yellow;
+td {
+	padding: 10px;
+}
+
+tr:first-child {
+	background-color: #CCEEEE;
+}
+
+tr:first-child:hover {
+	background-color: #CCEEEE;
+}
+
+tr:hover {
+	background-color: #EEEECC;
 }
 
 /*********************/
