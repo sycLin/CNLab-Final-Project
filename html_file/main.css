@@ -178,6 +178,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     font: normal 20px Arial, sans-serif;
+    width: 40%;
+}
+
+table tr {
+	background-color: yellow;
 }
 
 /*********************/
