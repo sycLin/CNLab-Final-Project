@@ -1,0 +1,163 @@
+
+
+<html>
+    <head>
+        <title>webMS: Welcome Back!</title>
+        <link rel=stylesheet type='text/css' href='main.css'>
+    </head>
+    
+    <body>
+        <h1 id='header'>
+            <span>webMS</span>
+        </h1>
+        <hr>
+        <p>Hello, Gdoggg2032</p>
+        <hr>
+        <div id='menu'>
+            <form action='' method='get'>
+                <input type='submit' class='button' name='changeview' value='Status'>
+                <input type='submit' class='button' name='changeview' value='Log'>
+                <input type='submit' class='button' name='changeview' value='Settings'>
+                <input type='submit' class='button' name='changeview' value='Logout'>
+            </form>
+        </div>
+        <hr>
+        <div id='filter'>
+            <p>Filter Settings</p>
+			<form action='' method='get' id='settings'>
+				<label for=''>Machines:</label>
+				<select name='machine' form_id='settings'>
+					<option value='Zombiesgogogo' selected='selected'>Zombiesgogogo</option>
+				</select>
+				<label for=''>Process Type:</label>
+				<select name='proc_type' form_id='settings'>
+					<option value='all' selected='selected'>all</option>
+					<option value='R'>R</option>
+					<option value='S'>S</option>
+					<option value='Z'>Z</option>
+				</select>
+				<label for=''>Sorted By:</label>
+				<select name='sortedby' form_id='settings'>
+					<option value='cpu' selected='selected'>cpu</option>
+					<option value='memory'>memory</option>
+					<option value='totaltime'>totaltime</option>
+				</select>
+				<label for=''>Count:</label>
+				<select name='count' form_id='settings'>
+					<option value='10' selected='selected'>10</option>
+					<option value='20'>20</option>'
+					<option value='50'>50</option>'
+					<option value='100'>100</option>'
+					<option value='200'>200</option>'
+					<option value='all'>all</option>'
+				</select>
+				<input type='submit' class='button' value='Go!'>
+			</form>
+		</div>
+		<hr>
+		<div id='killer'>
+			<p>Killer</p>
+			<form action='' method='get'>
+			    <label for=''>PID:</label>
+			    <input type='text' name='pid'>
+		        <input type='submit' class='button' name='kill_process' value='Kill It!'>
+	        </form>
+	    </div>
+	    <hr>
+
+
+        <table border=1>
+            <td>PID</td>
+            <td>User</td>
+            <td>State</td>
+            <td>CPU</td>
+            <td>MEM</td>
+            <td>TIME</td>
+            <td>Command</td>
+            <tr>
+            <td>19426</td>
+            <td>r039221+</td>
+            <td>R</td>
+            <td>101.4</td>
+            <td>0.0</td>
+            <td>1034010.0</td>
+            <td>vim</td>
+            <tr>
+            <td>21041</td>
+            <td>b93118</td>
+            <td>R</td>
+            <td>101.4</td>
+            <td>0.1</td>
+            <td>2676.16</td>
+            <td>python</td>
+            <tr>
+            <td>20644</td>
+            <td>r029440+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.0</td>
+            <td>185.62</td>
+            <td>svm-train</td>
+            <tr>
+            <td>4279</td>
+            <td>b019020+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.0</td>
+            <td>7893.55</td>
+            <td>z</td>
+            <tr>
+            <td>4330</td>
+            <td>b019020+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.0</td>
+            <td>7878.03</td>
+            <td>z</td>
+            <tr>
+            <td>4345</td>
+            <td>b019020+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.0</td>
+            <td>7876.88</td>
+            <td>z</td>
+            <tr>
+            <td>15840</td>
+            <td>r022220+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>24.8</td>
+            <td>2858800.0</td>
+            <td>train</td>
+            <tr>
+            <td>19625</td>
+            <td>r029220+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.8</td>
+            <td>255.09</td>
+            <td>greedy_dou+</td>
+            <tr>
+            <td>19627</td>
+            <td>r029220+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.8</td>
+            <td>255.0</td>
+            <td>greedy_dou+</td>
+            <tr>
+            <td>20906</td>
+            <td>r029220+</td>
+            <td>R</td>
+            <td>100.0</td>
+            <td>0.8</td>
+            <td>136.68</td>
+            <td>greedy_dou+</td>
+            <tr>
+        </table>
+               
+    </body>
+</html>
+
+
