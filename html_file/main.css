@@ -70,14 +70,11 @@ p.warning {
     background-color: #CCCAB7;
 }
 
-/****************************/
-
-
+/*********************/
 /**** status.html ****/
+/*********************/
 
-
-/****************************/
-
+/*** for id='menu' ***/
 #menu {
     filter:alpha(opacity=80);  
     -moz-opacity: 0.8;  
@@ -122,6 +119,10 @@ p.warning {
 	background: #E26565;
 }
 
+/*** for id='filter' ***/
+/*
+    注意：select還沒做好!
+*/
 #filter {
     filter:alpha(opacity=80);  
     -moz-opacity: 0.8;  
@@ -207,6 +208,7 @@ p.warning {
     text-shadow: #222;
 }
 
+/*** for id='killer' ***/
 #killer {
     filter:alpha(opacity=80);  
     -moz-opacity: 0.8;  
@@ -298,6 +300,10 @@ p.warning {
     text-shadow: #333;
 }
 
+/*** for table ***/
+/*
+    注意：table還沒測試完
+*/
 table {
     filter:alpha(opacity=80);  
     -moz-opacity: 0.8;  
@@ -379,9 +385,9 @@ form label {
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	background: #E27575;
-}*/
+}
 
-/*
+
 label[for=machine] {
 	;
 } 
@@ -399,8 +405,6 @@ label[for=count] {
     ;
 }
 
-*/
-/*
 #killer p {
 	font-size: 40px;
 }
@@ -432,21 +436,28 @@ label[for=count] {
 }
 */
 
-/*********************/
+/****************************/
+/**** End of status.html ****/
+/****************************/
 
 
-
-/**** settings.html ****/
 
 
 /***********************/
+/**** settings.html ****/
+/***********************/
+
+
+/******************************/
+/**** End of settings.html ****/
+/******************************/
 
 
 
 
-
+/******************************/
 /**** change_password.html ****/
-
+/******************************/
 input[type='text'], input[type='password']{
 	border: 2px solid #DADADA;
     color: #888;
@@ -487,10 +498,8 @@ input[type='text'], input[type='password']{
 	margin-left: 150px;
 }
 
-/*****************************/
-
-
-
-
+/*******************************/
+/** End of change_passwd.html **/
+/*******************************/
 
 
