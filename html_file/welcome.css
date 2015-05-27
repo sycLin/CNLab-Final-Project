@@ -14,7 +14,10 @@ hr {
 div hr {
     padding: 0;
     margin: 0;
-    margin-bottom: 25px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 0.7;
 }
 
 body {
@@ -25,19 +28,18 @@ body {
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: cover;
-    background-position: 10% 45%;
-     
-    /*opacity: 0.8;
-    filter:alpha(opacity=80);*/
+    background-position: -10px -30px;
+
 	font: 25px Monaco, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-    /*filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8; -khtml-opacity: 0.8;*/
+
 	margin: 0;
 	padding: 0;
 }
 
 label {
+    color: #333;
 	display: inline-block;
 	text-align: right;
 	width: 180px;
@@ -50,20 +52,24 @@ span {
 }
 
 div {
-	padding: 20px;
+    color: #444;
+	padding: 22px;
 	width: 35%;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 100px;
+	margin-top: 130px;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
+    opacity: 0.85;
 }
 
 div span {
+    color: #333;
     position: relative;
-    top: 5px;
-	margin-left: 15px;
+    top: 10px;
+	left: 15px;
 	font-size: 15px;
+    line-height: 100%;
 }
 
 .warning {
@@ -78,10 +84,10 @@ div span {
 }
 
 #header {
-    filter:alpha(opacity=70);  
-    -moz-opacity: 0.7;  
-    -khtml-opacity: 0.7;  
-    opacity: 0.7;
+    filter:alpha(opacity=60);  
+    -moz-opacity: 0.6;  
+    -khtml-opacity: 0.6;  
+    opacity: 0.6;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -90,8 +96,8 @@ div span {
 	font: 60px Cambria, Verdana, serif; 
 
 	font-weight: 100;
-	color: #000000;
-    background-color: #AAA;
+	color: #FFF;
+    background-color: #000;
 
 	letter-spacing: 0.02em;
 }
@@ -99,8 +105,8 @@ div span {
 #header:hover {
     margin: 0;
     padding: 0;
-    color: #FFFFFF;
-    background-color: #000;
+    color: #333;
+    background-color: #AAA;
 }
 
 span .button {
@@ -146,6 +152,10 @@ input[type='text'], input[type='password']{
     height: 35px;
     position: relative;
     top: -5px;
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
     /* 
     margin-bottom: 16px;
     margin-right: 6px;
