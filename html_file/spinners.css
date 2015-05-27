@@ -1691,7 +1691,7 @@
   position: absolute;
   width: 22px;
   height: 22px;
-  top: 18.75px;
+  top: 16.75px;
   left: -10.82532px;
 }
 .circles-loader:not(:required)::after {
@@ -1701,7 +1701,7 @@
   position: absolute;
   width: 22px;
   height: 22px;
-  top: 18.75px;
+  top: 16.75px;
   left: 10.82532px;
 }
 
