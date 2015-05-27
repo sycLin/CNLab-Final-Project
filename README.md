@@ -45,13 +45,13 @@ Web-based Monitoring Service
 |:---:|:--|:---|:----------|
 |***YES***|Env setup|Steven|setup VMs, install packages, activate services|
 |***YES***|SSH tunnel|Steven|establish ssh connection|
-|*on-going*|PHP code|S&Ben|render webpages based on templates|
+|***YES***|PHP code|S&Ben|render webpages based on templates|
 |***NO***|Router monitoring|Everybody|control the flow of router|
 |***NO***|JS|Steven|perhaps for some useful functions|
-|*on-going*|HTML templates|Ben|provide all webpage templates|
-|***NO***|HTML templates|GDog|provide all webpage templates|
+|***YES***|HTML templates|Steven|provide all webpage templates|
 |*on-going*|CSS styling|B&G|CSS styling for webpages|
-|***NO***|Process Killing|Hank|especially deal with zombies|
+|***YES***|Process Killing|Steven|especially deal with zombies|
+|*on-going*|Online User List|Hank|get current online user list|
 |***NO***|Portability|Hank|unix-like system first, and ...|
 |***NO***|Debugging|Adam|maintenance issues including debugging|
 
@@ -64,9 +64,9 @@ Web-based Monitoring Service
 
 ### Milestone #2
 
-- [ ] Finish the webpage prototypes for administration use.
-- [ ] Users are able to kill processes through web GUI.
-- [ ] Users are able to add/delete/edit machines that are monitored through web GUI.
+- [x] Finish the webpage prototypes for administration use.
+- [x] Users are able to kill processes through web GUI.
+- [x] Users are able to add/delete/edit machines that are monitored through web GUI.
 - [ ] Automatically kill zombie processes. (tentative)
 
 ### Milestone #3
