@@ -1,7 +1,7 @@
 /**** For all main htmls ****/
 
 body {
-	background-image: url("img/beach.jpg");
+	background-image: url("./img/beach.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -moz-background-size: 100%;
@@ -206,7 +206,7 @@ hr {
 }
 
 #filter select {
-    background: url('down_arrow.png') no-repeat right #ddd;
+    background: url('./img/down_arrow.png') no-repeat right #ddd;
     background-size: 27px;
     width: 12%;
     position: relative;
