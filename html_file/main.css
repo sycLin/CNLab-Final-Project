@@ -215,13 +215,17 @@ hr {
     font: 21px Courier, Candara, Cambria, Verdana, serif; 
     margin-left: -1px;
     height: 27px;
-    overflow: auto;
+    overflow: hidden;
     appearance:none;
     -webkit-appearance:none; 
     -moz-appearance: none;
 
     text-indent: 0.01px;
     text-overflow: '';
+}
+
+#filter label[for='machine'] select {
+    width: 14%;
 }
 
 #filter .button {
@@ -346,6 +350,12 @@ hr {
 /*
     注意：table還沒測試完
 */
+
+tr:first-child {
+    background-color: #cbb;
+}
+
+
 table {
     filter:alpha(opacity=100);  
     -moz-opacity: 1;  
