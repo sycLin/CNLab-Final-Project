@@ -11,7 +11,7 @@ body {
     background-size: cover;
 }
 
-#menu .active {
+.active_button {
     background-color: #E26565;
 }
 
