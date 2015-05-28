@@ -212,6 +212,9 @@ hr {
 }
 
 #filter select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background: url('./img/down_arrow.png') no-repeat right #ddd;
     background-size: 27px;
     width: 12%;
@@ -222,12 +225,13 @@ hr {
     margin-left: -1px;
     height: 27px;
     overflow: hidden;
-    appearance:none;
-    -webkit-appearance:none; 
-    -moz-appearance: none;
 
     text-indent: 0.01px;
     text-overflow: '';
+}
+
+#filter select:active {
+    background-color: #f00;
 }
 
 #filter label[for='machine'] select {
@@ -359,7 +363,7 @@ hr {
 
 
 
-table {
+#ProcessTable {
     filter:alpha(opacity=100);  
     -moz-opacity: 1;  
     -khtml-opacity: 1;  
@@ -970,7 +974,7 @@ label[for=count] {
     position: absolute;
     _position: absolute;
     text-align: center;
-    top: 363px;
+    top: 369px;
     left: 50%;
     height: 300px;
     width: 100%;
@@ -1008,7 +1012,7 @@ label[for=count] {
     _position: relative;
     top: -20px;
     font: 18px Courier, Candara, Cambria, Verdana, serif; 
-    margin-left: -5px;
+    margin-left: 0px;
     height: 22px;
     overflow: hidden;
     appearance:none;
@@ -1026,8 +1030,8 @@ label[for=count] {
     _position: relative;
     top: -12px;
     font: 15px Courier, Candara, Cambria, Verdana, serif; 
-    margin-left: 12px;
-    margin-right: -12px;
+    margin-left: 15px;
+    margin-right: -10px;
     border-style: solid;
     border-width: 2px;
     border-color: #666;
@@ -1077,6 +1081,35 @@ label[for=count] {
     background: #000;
     color: #DABC27;
     text-shadow: 0px 0px 0px #DABC27;
+}
+
+#UserTable {
+    filter:alpha(opacity=90);  
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;  
+    opacity: 0.9;
+    position: absolute;
+    _position: absolute;
+
+    top: 600px;
+    left: 50%;
+    height: 70%;
+    width: 40%;
+    margin-left: -22%;
+    text-align: center;
+
+    color: #252525;
+    background: rgba(235, 236, 237, 0.44);
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 3px;
+    border-bottom: 5px;
+    border-spacing: 0;
+    border-color: #353535;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
 }
 
 /**********************/
