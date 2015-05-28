@@ -39,19 +39,20 @@ hr {
 }
 
 .warning {
-    position: relative;
+    position: absolute;
     left: 50%;
-    width: 300px;
+    top: 310px;
+    width: 450px;
     height: 30px;
     margin-top: 33px;
-    margin-left: -150px;
+    margin-left: -225px;
     text-align: center;
     color: #D61E49;
     font: 20px Athelas, Monaco, serif; 
     font-weight: 10;
     border-color: #444;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
     padding- bottom: 1px;
     border-style: solid;
