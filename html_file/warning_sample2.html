@@ -1,0 +1,18 @@
+<html><head><title>webMS: Welcome Back!</title><link rel=stylesheet type='text/css' href='main.css'></head><body><h1 id='header'><span>webMS</span></h1><hr><p>Hello, sycLin</p><hr><div id='menu'><form action='' method='get'><input type='submit' class='button' name='changeview' value='Status'><input type='submit' class='button' name='changeview' value='Log'><input type='submit' class='button' name='changeview' value='Settings'><input type='submit' class='button' name='changeview' value='Logout'></form></div><hr><div id='filter'><p>Filter Settings</p><form action='' method='get' id='settings'><label for=''>Machines:</label><select name='machine' form_id='settings'><option value='Felix' selected='selected'>Felix</option><option value='steven15'>steven15</option></select><label for=''>Process Type:</label><select name='proc_type' form_id='settings'><option value='all' selected='selected'>all</option><option value='R'>R</option><option value='S'>S</option><option value='Z'>Z</option></select><label for=''>Sorted By:</label><select name='sortedby' form_id='settings'><option value='cpu' selected='selected'>cpu</option><option value='memory'>memory</option><option value='totaltime'>totaltime</option></select><label for=''>Count:</label><select name='count' form_id='settings'><option value='10' selected='selected'>10</option><option value='20'>20</option>'<option value='50'>50</option>'<option value='100'>100</option>'<option value='200'>200</option>'<option value='all'>all</option>'</select><input type='submit' class='button' value='Go!'></form></div><hr><div id='killer'><p>Killer</p><form action='' method='get'><label for=''>PID:</label><input type='text' name='pid'><input type='submit' class='button' name='kill_process' value='Kill It!'></form></div><hr><p class='warning'>Error: process not killed. (pid=123)</p><hr>
+<html><head><title>Python CGI, YES!</title></head><body>
+<table border=1>
+<td>PID</td><td>User</td><td>State</td><td>CPU</td><td>MEM</td><td>TIME</td><td>Command</td>
+<tr>
+<td>26237</td> <td>r039221+</td> <td>S</td> <td>630.7</td> <td>0.4</td> <td>1173715.0</td> <td>MATLAB</td> <tr>
+<td>12340</td> <td>r022220+</td> <td>R</td> <td>98.0</td> <td>2.2</td> <td>11241.18</td> <td>train</td> <tr>
+<td>16439</td> <td>b019020+</td> <td>R</td> <td>12.2</td> <td>0.0</td> <td>0.07</td> <td>top</td> <tr>
+<td>1</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>172.47</td> <td>systemd</td> <tr>
+<td>2</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>1.2</td> <td>kthreadd</td> <tr>
+<td>3</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>52.68</td> <td>ksoftirqd/0</td> <tr>
+<td>5</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>0.0</td> <td>kworker/0:+</td> <tr>
+<td>8</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>1133.89</td> <td>rcu_sched</td> <tr>
+<td>9</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>0.0</td> <td>rcu_bh</td> <tr>
+<td>10</td> <td>root</td> <td>S</td> <td>0.0</td> <td>0.0</td> <td>29.94</td> <td>migration/0</td> <tr>
+</table>
+</body></html>
+</body></html>
