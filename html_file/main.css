@@ -91,7 +91,7 @@ hr {
     height: 44px;
     margin-left: -175px;
     padding-top: 12px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     padding-left: 12px;
     text-align: center;
 
@@ -101,6 +101,11 @@ hr {
     color: #D61E49;
     background: rgba(224, 224, 172, 0.15);
 	font: 31px Bradley Hand, Constantia, Chalkduster, Verdana, Cambria, serif;
+}
+
+#User span {
+    padding-bottom: -8px;
+    margin-bottom: 12px;
 }
 
 #header {
