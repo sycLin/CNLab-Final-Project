@@ -131,6 +131,7 @@ div hr {
 
 .button {
 	background: #6969DD;
+    margin-top: 13px;
     padding: 6px 25px 6px 25px;
     color: #FFF;
     font: 17px Monaco, sans-serif;
