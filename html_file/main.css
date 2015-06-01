@@ -88,13 +88,12 @@ hr {
     top: 90px;
     left: 50%;
     width: 350px;
-    height: 44px;
+    height: 45px;
     margin-left: -175px;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 6px;
     padding-left: 12px;
     text-align: center;
-
     border-style: solid;
     border-color: #444;
     border-width: 2px;
@@ -104,8 +103,8 @@ hr {
 }
 
 #User span {
-    padding-bottom: -8px;
-    margin-bottom: 12px;
+    margin-top: -14px;
+    padding-bottom: -10px;
 }
 
 #header {
