@@ -13,11 +13,11 @@ body {
 
 .active_button {
     background-color: #E26565;
-    width: 22%;
+    width: 24%;
     text-align: center;
     font: 23px Courier, Candara, Cambria, Verdana, serif; 
     margin-left: 10px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 6px 2px 6px;
     color: #EEE;
     box-shadow: 1px 1px 5px #888;
     border-radius: 5px;
@@ -235,7 +235,7 @@ hr {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url('./img/down_arrow.png') no-repeat right #ddd;
+    background: url('img/down_arrow.png') no-repeat right #ddd;
     background-size: 27px;
     width: 125px;
     position: relative;
@@ -1118,7 +1118,7 @@ input[type='radio'] {
 }
 
 #userfilter select {
-    background: url('./img/down_arrow.png') no-repeat right #ddd;
+    background: url('img/down_arrow.png') no-repeat right #ddd;
     background-size: 27px;
     width: 120px;
     
