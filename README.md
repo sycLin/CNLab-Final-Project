@@ -31,7 +31,7 @@ Web-based Monitoring Service
 - [x] Construct two normal VMs, say VM1 and VM2.
 - [x] Build a web server on another (the 3rd) VM to display all process info of VM1 and VM2.
 - [x] Users can kill processes of VM1 and VM2 through the admin page of web server.
-- [ ] Zombie processes should be killed automatically and display what have been killed on the webpage.
+- [ ] ~~Zombie processes should be killed automatically and display what have been killed on the webpage.~~
 
 ## Useful Links
 
@@ -46,14 +46,14 @@ Web-based Monitoring Service
 |***YES***|Env setup|Steven|setup VMs, install packages, activate services|
 |***YES***|SSH tunnel|Steven|establish ssh connection|
 |***YES***|PHP code|S&Ben|render webpages based on templates|
-|***NO***|__Router monitoring__|Everybody|control the flow of router|
-|***NO***|JS|Steven|perhaps for some useful functions|
+|***NO***|Router monitoring|Everybody|control the flow of router|
+|***YES***|JS|Steven|perhaps for some useful functions|
 |***YES***|HTML templates|Steven|provide all webpage templates|
-|*on-going*|CSS styling|B&G|CSS styling for webpages|
+|***YES***|CSS styling|B&G|CSS styling for webpages|
 |***YES***|Process Killing|Steven|especially deal with zombies|
-|*on-going*|Online User List|Hank|get current online user list|
-|***NO***|Portability|Hank|unix-like system first, and ...|
-|***NO***|Debugging|Adam|maintenance issues including debugging|
+|***YES***|Online User List|Hank|get current online user list|
+|***YES***|Portability|Hank|unix-like system first, and ...|
+|***YES***|Debugging|Adam|maintenance issues including debugging|
 
 ## Milestones
 
@@ -67,12 +67,12 @@ Web-based Monitoring Service
 - [x] Finish the webpage prototypes for administration use.
 - [x] Users are able to kill processes through web GUI.
 - [x] Users are able to add/delete/edit machines that are monitored through web GUI.
-- [ ] Automatically kill zombie processes. (tentative)
+- [ ] ~~Automatically kill zombie processes. (tentative)~~
 
 ### Milestone #3
 
-- [ ] Extra Functionality (e.g., CPU usage, Memory usage, Disk usage, etc.)
-- [ ] Complete Web GUI.
-- [ ] Portability: Linux(must-have), Mac OS X(better-have), Windows(might-have).
+- [x] Extra Functionality (e.g., CPU usage, Memory usage, Disk usage, etc.)
+- [x] Complete Web GUI.
+- [x] Portability: Linux(must-have), Mac OS X(better-have), Windows(might-have).
 
 
