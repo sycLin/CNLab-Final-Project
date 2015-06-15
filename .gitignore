@@ -39,3 +39,7 @@ Thumbs.db
 # Vim swap files #
 ##################
 *.swp
+
+# videos #
+##########
+*.mov
