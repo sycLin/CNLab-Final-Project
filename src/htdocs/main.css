@@ -1,0 +1,1570 @@
+@import "compass/css3";
+/**** For all main htmls ****/
+
+body {
+	background-image: url("./img/beach.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover;
+}
+
+.active_button {
+    background-color: #E26565;
+    width: 24%;
+    text-align: center;
+    font: 23px Courier, Candara, Cambria, Verdana, serif; 
+    margin-left: 10px;
+    padding: 2px 6px 2px 6px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+.active_button:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.title {
+    background-color: #BBB;
+}
+
+.title:hover {
+    background-color: #BBB;
+}
+
+hr {
+    border-style: none;
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+#HR {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    border-style: solid;
+    border-color: #555;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 309px;
+    text-align: center;
+}
+
+.warning {
+    /*
+    position: absolute;
+    left: 50%;
+    top: 310px;
+    width: 400px;*/
+    width: 50%;
+    overflow: auto;
+    /*
+    margin-top: 33px;
+    margin-left: -200px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 7px 15px 7px 15px;
+    color: #D61E49;
+    font: 21px Constantia, Cambria, Athelas, Monaco, serif; 
+    font-weight: 10;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #444;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#User {
+    position: absolute;
+    _position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 350px;
+    height: 45px;
+    margin-left: -175px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    text-align: center;
+
+    border-style: solid;
+    border-color: #444;
+    border-width: 2px;
+    color: #D61E49;
+    background: rgba(224, 224, 172, 0.15);
+	font: 33px Bradley Hand, Constantia, Chalkduster, Verdana, Cambria, serif;
+}
+
+#header {
+    display:block;
+	filter:alpha(opacity=60);  
+    -moz-opacity: 0.6;  
+    -khtml-opacity: 0.6;  
+    opacity: 0.6;
+
+    position: absolute;
+    _position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    height: 82px;
+    margin-left: -50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    text-align: center;
+
+    font: 60px Athelas, Baskerville, Seravek, skia, Cambria, Herculanum, Chalkduster, serif, Verdana; 
+    font-weight: 100;
+    color: #FFF;
+    background-color: #000;
+
+    letter-spacing: 0.02em;
+}
+
+#header:hover {
+    color: #DDD;
+    background-color: #111;
+}
+
+/*********************/
+/**** status.html ****/
+/*********************/
+
+/*** for id='menu' ***/
+#menu {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    position: absolute;
+    _position: absolute;
+    top: 240px;
+    left: 50%;
+    height: 45px;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+
+    border-style: none;
+    color: #D61E49;
+    background: rgba(224, 224, 172, 0.15);
+}
+
+#menu .button {
+    width: 22.7%;
+    background: #68C;
+    text-align: center;
+    font: 23px Courier, Candara, Cambria, Verdana, serif; 
+    margin-left: 10px;
+    padding: 2px 6px 2px 6px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#menu .button:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	background: #E26565;
+}
+
+/*** for id='filter' ***/
+/*
+    注意：select還沒做好!
+*/
+#filter {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    top: 330px;
+    left: 50%;
+    height: 145px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    /* margin-left: -50%; */
+    text-align: center;
+    border-style: none;
+    /*color: #D61E49;*/
+    /*background: rgba(224, 224, 172, 0.15);*/
+    /*border: solid;
+    border-width: 2px;*/
+}
+
+#filter p {
+    /*
+    position: relative;
+    _position: relative;
+    top: 0px;*/
+
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font: 40px Constantia, Cambria, Arial;
+    color: #111;
+}
+
+#filter label {
+    width: 10%;
+    position: relative;
+    _position: relative;
+    top: -19px;
+    margin-left: 7px;
+    margin-right: 2px;
+    font: 22px Courier, Arial, sans-serif;
+}
+
+#filter select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('img/down_arrow.png') no-repeat right #ddd;
+    background-size: 27px;
+    width: 125px;
+    position: relative;
+    _position: relative;
+    top: -20px;
+    font: 19px Courier, Candara, Cambria, Verdana, serif; 
+    margin-left: -1px;
+    margin-right: 5px;
+    padding-left: 3px;
+    height: 27px;
+    overflow: hidden;
+
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+
+#filter label[for='machine'] select {
+    width: 14%;
+}
+
+#filter .button {
+    width: 80px;
+    position: relative;
+    _position: relative;
+    top: -20px;
+    margin-left: 5px;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #68C;
+    margin-left: 11px;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #888;
+    /*text-shadow: 1px 1px 1px #4488CC;*/
+    cursor: pointer;
+}
+
+#filter .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+}
+
+/*** for id='killer' ***/
+#killer {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    left: 50%;
+    height: 145px;
+    width: 100%;
+    /* margin-left: -50%; */
+    text-align: center;
+    border-style: none;
+    /*color: #D61E49;*/
+    /*background: rgba(224, 224, 172, 0.15);*/
+    /*border: solid;
+    border-width: 2px;*/
+}
+
+#killer p {
+    /*
+    position: relative;
+    _position: relative;
+    top: 0px;*/
+
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font: 40px Constantia, Cambria, Arial;
+    color: #111;
+}
+
+#killer label {
+    width: 10%;
+    position: relative;
+    _position: relative;
+    top: -19px;
+    margin-left: 19px;
+    margin-right: 2px;
+    font: 22px Courier, Arial, sans-serif;  
+}
+
+#killer input {
+    width: 180px;
+    /*
+    position: relative;
+    _position: relative;
+    top: -20px;
+    left: -36.5%;
+    */
+    position: relative;
+    _position: relative;
+    top: -20px;
+    font: 21px Courier, Candara, Cambria, Verdana, serif; 
+    height: 27px;
+    margin-left: -1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999;
+    color: #444;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#killer .button {
+    width: auto;
+    /*
+    position: relative;
+    _position: relative;
+    top: -22px;
+    margin-left: 5px;
+    */
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #68C;
+    margin-left: 11px;
+    padding: 3px 7px 3px 7px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    /*text-shadow: 1px 1px 1px #4488CC;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#killer .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    box-shadow: #111;
+    text-shadow: #333;
+}
+
+
+/*** for table ***/
+/*
+    注意：table還沒測試完
+*/
+
+
+
+#processlist {
+    filter:alpha(opacity=100);  
+    -moz-opacity: 1;  
+    -khtml-opacity: 1;  
+    opacity: 1;
+    /*
+    position: absolute;
+    _position: absolute;
+*/
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    top: 660px;
+    left: 50%;
+    height: 70%;*/
+    width: 70%;
+    /*margin-left: -25%;*/
+    text-align: center;
+
+    color: #252525;
+    /*background: rgba(235, 236, 237, 0.44);*/
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 3px;
+    border-bottom: 5px;
+    border-spacing: 0;
+    border-color: #353535;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+td {
+    padding: 10px;
+}
+
+td:hover {
+    background: rgba(239, 238, 171, 0.54);
+}
+
+tr:hover {
+    background-color: #EEEECC;
+}
+
+/*
+select {
+
+	overflow: hidden;
+	 background: url('down_arrow.png') no-repeat right #ddd;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 15%;
+    height: 35px;
+    line-height: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+form label {
+	font-size: 20px;
+	margin-right: 4px;
+}
+
+.button {
+	background: #6688CC;
+    padding: 5px 13px 5px 13px;
+    color: #FFF;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+.button:hover {
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	background: #E27575;
+}
+
+
+label[for=machine] {
+	;
+} 
+
+label[for=process] {
+	;
+}
+
+label[for=sort] {
+	;
+}
+
+
+label[for=count] {
+    ;
+}
+
+#killer p {
+	font-size: 40px;
+}
+
+#killer input[type='text'] {
+	appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 15%;
+    height: 35px;
+    line-height: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+#killer input[type='text']:hover {
+	appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 15%;
+    height: 35px;
+    line-height: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+*/
+
+/****************************/
+/**** End of status.html ****/
+/****************************/
+
+
+
+
+/***********************/
+/**** settings.html ****/
+/***********************/
+
+/* this part is same as #user */
+/*body p {
+    position: absolute;
+    _position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 350px;
+    height: 44px;
+    margin-left: -175px;
+    padding-top: 12px;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    text-align: center;
+
+    border-style: solid;
+    border-color: #444;
+    border-width: 2px;
+    color: #D61E49;
+    background: rgba(224, 224, 172, 0.15);
+    font: 31px Bradley Hand, Chalkduster, Verdana, Cambria, serif;
+}*/
+
+/* the #menu is same as status.html */
+
+/* id='profile' */
+#profile {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*top: 363px;*/
+    left: 50%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: none;
+    color: #D61E49;
+    /*background: rgba(224, 224, 172, 0.15);*/
+    /*border: solid;
+    border-width: 2px;*/
+}
+
+#profile h2 {
+    position: relative;
+    _position: relative;
+    top: 2px;
+    font: 40px Cambria, Courier, serif, Arial;
+    color: #111;
+}
+
+#profile table {
+    position: relative;
+    _position: relative;
+
+    height: 45%;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    top: -5px;
+    text-align: left;
+
+    color: #252525;
+    background: rgba(235, 236, 237, 0.44);
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 2px;
+    border-bottom: 5px;
+    border-color: #353535;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+#profile .button {
+    width: 250px;
+    position: relative;
+    _position: relative;
+    top: -80px;
+    margin-left: 5px;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #68C;
+    margin-left: 11px;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#profile .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+/* id='machines' */
+#machines {
+    filter:alpha(opacity=90);  
+    -moz-opacity: 0.9;  
+    -khtml-opacity: 0.9;  
+    opacity: 0.9;
+    top: 663px;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: none;
+    color: #D61E49;
+    /*background: rgba(224, 224, 172, 0.15);*/
+    /*border: solid;
+    border-width: 2px;*/
+}
+
+#machines h2 {
+    position: relative;
+    _position: relative;
+    top: 2px;
+    font: 40px Cambria, Courier, serif, Arial;
+    color: #111;
+}
+
+#machines table {
+    /*
+    position: relative;
+    _position: relative;
+
+    height: 42%;
+    width: 500px;
+    left: 50%;
+    margin-left: -380px;
+    top: -5px;*/
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    color: #252525;
+    background: rgba(235, 236, 237, 0.44);
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 2px;
+    border-bottom: 8px;
+    border-color: #353535;
+
+    padding: 3px;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+#machines table .button {
+    position: relative;
+    _position: relative;
+    top: 12px;
+    right: 8px;
+    width: 93%;
+    padding: 1px;
+    font: 12px Monaco, Verdana, serif;
+}
+
+#machines table .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+}
+
+#machines .button {
+    width: 250px;
+    position: relative;
+    _position: relative;
+    top: -80px;
+    margin-left: 5px;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #68C;
+    margin-left: 11px;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#machines .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+/******************************/
+/**** End of settings.html ****/
+/******************************/
+
+
+
+
+/*****************************/
+/***** add_machines.html *****/
+/*****************************/
+
+#addmc {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    top: 330px;
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+    height: auto;
+    width: 820px;
+    /* margin-left: -50%; */
+    text-align: center;
+    /*color: #D61E49;*/
+    /*background: rgba(255, 255, 255, 0.55);
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;   
+}
+
+#addmc h2 {
+    /*
+    position: relative;
+    _position: relative;
+    top: -13px;*/
+    margin-bottom: 18px;
+    text-align: center;
+    font: 36px Constantia, Arial;
+    color: #111;
+}
+
+#addmc label {
+    width: 40%;
+    /*
+    position: relative;
+    _position: relative;
+    top: -20px;
+    left: -50%;*/
+    display:inline-block;
+    text-align: right;
+    margin-left: -50px;
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+}
+
+#addmc input[type='text'], #addmc input[type='password'] {
+    width: 30%;
+    /*
+    position: relative;
+    _position: relative;
+    top: -20px;
+    left: -50%;*/
+    display:inline-block;
+    font: 21px Courier, Candara, Cambria, Verdana, serif; 
+    height: 27px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999;
+    padding-left: 3px;
+    color: #444;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#addmc .button {
+    width: 10%;
+
+    text-align: center;
+    top: -22px;
+    left: 51%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #57C;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#addmc .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+/*
+#addmc input[type='radio'] {
+    font: 40px Courier, Candara, Cambria, Verdana, serif;
+    line-height: 28px;
+    margin-left: 30px;
+}
+
+#addmc input[type='radio']:nth-child(13) {
+    display: inline-block;
+
+
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+    color:black;
+
+    margin-left: 30%;
+}*/
+
+#addmc input[type='radio'] {
+    font: 40px Courier, Candara, Cambria, Verdana, serif;
+    line-height: 28px;
+}
+
+#addmc input[type='radio']:nth-child(13) {
+    display: inline-block;
+
+    /*font: 25px Courier, Candara, Cambria, Verdana, serif;*/
+    color:black;
+
+    margin-left: 30%;
+}
+
+
+
+
+
+/*
+input[type='radio'] {
+  display      : inline-block;
+  margin-left  : -28px;
+  padding-left : 28px;
+  background   : url('checks.png') no-repeat 0 0;
+  line-height  : 24px;
+}
+*/
+
+/********************************/
+/*** End of add_machines.html ***/
+/********************************/
+
+
+
+
+/******************************/
+/**** change_password.html ****/
+/******************************/
+
+/* id='chpw' */
+
+#chpw {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    top: 330px;
+    left: 50%;
+    height: 225px;
+    width: 700px;
+    /* margin-left: -50%; */
+    text-align: center;
+    /*color: #D61E49;*/
+    /*background: rgba(255, 255, 255, 0.55);
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#chpw h2 {
+    /*
+    position: relative;
+    _position: relative;
+    top: 2px;*/
+    font: 40px Constantia, Cambria, Courier, serif, Arial;
+    color: #111;
+}
+
+#chpw label {
+    width: 200px ;
+    position: relative;
+    _position: relative;
+    top: -10px;
+    margin-left: 30px;
+    font: 25px Courier, Candara, Cambria, Verdana, serif;  
+}
+
+#chpw input {
+    width: 250px;
+    position: relative;
+    _position: relative;
+    top: -10px;
+    font: 24px Courier, Candara, Cambria, Verdana, serif; 
+    height: 27px;
+    margin-left: 2px;
+    padding-left: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999;
+    color: #444;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#chpw .button {
+    width: 100px;
+    position: relative;
+    _position: relative;
+    text-align: center;
+    top: -4px;
+    left: 51%;
+    margin-top: 7px;
+    margin-left: -100%;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #57C;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#chpw .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+
+/*input[type='text'], input[type='password']{
+	border: 2px solid #DADADA;
+    color: #888;
+    height: 35px;
+    position: relative;
+    top: -5px;
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+
+    outline: 0 none;
+    padding: 5px 1px 3px 5px; 
+    width: 15%;
+    font: 12px Arial, sans-serif;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+#chpw h2 {
+	margin-left: 30px;
+}
+
+#chpw label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+#chpw input[type='submit'] {
+	display: inline-block;
+	margin-left: 150px;
+}*/
+
+/*******************************/
+/** End of change_passwd.html **/
+/*******************************/
+
+/********************/
+/** user_list.html **/
+/********************/
+
+
+
+#userfilter {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    height: 190px;
+    width: 950px;
+    /* margin-left: -50%; */
+    text-align: center;
+    /*color: #D61E49;*/
+    /*background: rgba(255, 255, 255, 0.45);
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    padding-bottom: 19px;
+}
+
+#userfilter p {
+    /*
+    position: relative;
+    _position: relative;
+    */
+    /*
+    top: 2px;
+    */
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font: 40px Constantia, Arial;
+    color: #111;
+}
+
+#userfilter form {
+    width: 1000px;
+    position: relative;
+    _position: relative;
+    top: -20px;
+
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#userfilter label {
+    width: 8%;
+    
+    position: relative;
+    _position: relative;
+
+    margin-left: 10px;
+    /*font: 21px Courier, Candara, Cambria, Verdana, serif;  */
+    font: normal 23.5px Courier, Arial, sans-serif;
+}
+
+#userfilter select {
+    background: url('img/down_arrow.png') no-repeat right #ddd;
+    background-size: 27px;
+    width: 120px;
+    
+    position: relative;
+    _position: relative;
+    top: -1px;
+    
+    font: 18px Courier, Candara, Cambria, Verdana, serif; 
+    margin-left: 10px;
+    padding-left: 3px;
+    height: 28px;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#userfilter input[type='checkbox'] {
+    /*
+    width: 23px;
+    height: 23px;
+    */
+    display:inline-block;
+    /*margin-top: 100px;*/
+    width: 100%;
+    position: relative;
+    _position: relative;
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    font: 20px Courier, Candara, Cambria, Verdana, serif;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: -10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #666;
+    background-color: #BBB;
+    opacity: 0.7;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#userfilter input[type='checkbox']:hover {
+    background: url('./img/check.png') no-repeat center;
+    background-size: 19px;
+}
+
+#userfilter input[type='checkbox']:checked {
+    background: url('./img/check3.png') no-repeat center;
+    background-size: 17px;
+}
+
+#userfilter .button {
+    width: 60px;
+    
+    position: relative;
+    _position: relative;
+    
+    text-align: center;
+    /* left: 50%; */
+    /* margin-left: -100%; */
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #57C;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#userfilter .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+
+
+/*** It's a table ***/
+#userlist {
+    margin-right: auto;
+    margin-left: auto;
+    filter:alpha(opacity=100);  
+    -moz-opacity: 1;  
+    -khtml-opacity: 1;  
+    opacity: 1;
+    /*
+    position: absolute;
+    _position: absolute;
+
+    top: 660px;
+    left: 50%;
+    */
+    height: 70%;
+    width: 70%;
+    /*margin-left: -25%;*/
+    text-align: center;
+
+    color: #252525;
+    background: rgba(235, 236, 237, 0.44);
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 3px;
+    border-bottom: 5px;
+    border-spacing: 0;
+    border-color: #353535;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+/*
+#UserTable {
+    filter:alpha(opacity=90);  
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;  
+    opacity: 0.9;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    position: absolute;
+    _position: absolute;
+
+    top: 600px;
+    left: 50%;
+    
+    /*
+    height: 70%;
+    width: 40%;
+    /*margin-left: -22%;
+    text-align: center;
+
+    color: #252525;
+    background: rgba(235, 236, 237, 0.44);
+
+    border-collapse: collapse;
+    border: solid;
+    border-width: 3px;
+    border-bottom: 5px;
+    border-spacing: 0;
+    border-color: #353535;
+
+    font: normal 20px Arial, sans-serif;
+    margin-bottom: 100px;
+}
+*/
+
+/*******************************/
+/**** End of user_list.html ****/
+/*******************************/
+
+/**********************/
+/*** Delete Machine ***/
+/**********************/
+#demc {
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+    /*
+    position: absolute;
+    _position: absolute;
+    */
+    left: 50%;
+    height: 160px;
+    width: 650px;
+    /* margin-left: -50%; */
+    text-align: center;
+    /*color: #D61E49;*/
+    /*background: rgba(255, 255, 255, 0.55);
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+#demc h2 {
+    font: 34px Constantia, Arial;
+}
+
+#demc .button {
+    width: 250px;
+    background: #68C;
+    text-align: center;
+    font: 23px Courier, Candara, Cambria, Verdana, serif; 
+    margin-left: 10px;
+    padding: 2px 5px 2px 5px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    /*text-shadow: 1px 1px 1px #4488CC;*/
+    cursor: pointer;
+}
+
+#demc .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.9);
+    color: #DABC27;
+}
+    
+/*******************************/
+/***** Update Machine.html *****/
+/*******************************/
+
+#chmc {
+    /*
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px;
+    /*border-style: solid;
+    text-align: center;
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+    */
+    filter:alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;
+
+    height: 280px;
+    width: 660px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+    /*color: #D61E49;*/
+    /*background: rgba(255, 255, 255, 0.55);
+    border-color: #333;
+    border-width: 2px;
+    border-style: solid;*/
+    padding-top: 2px;
+    padding-bottom: 7px;
+    /*
+    border: solid;
+    border-width: 2px;*/   
+}
+
+#chmc h2 {
+    /*
+    position: relative;
+    _position: relative;
+    top: -13px;*/
+    padding-bottom: -5px;
+    text-align: center;
+    font: 36px Constantia, Arial;
+    color: #111;
+}
+
+#chmc input[type='text'], #chmc input[type='password']{
+    width: 30%;
+    /*
+    position: relative;
+    _position: relative;
+    top: -20px;
+    left: -50%;*/
+    display:inline-block;
+    font: 21px Courier, Candara, Cambria, Verdana, serif; 
+    height: 27px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999;
+    padding-left: 3px;
+
+    color: #444;
+    overflow: hidden;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+#chmc label {
+    width: 40%;
+    margin-left: 50px;
+    display:inline-block;
+    text-align: right;
+    
+    font: 25px Courier, Candara, Cambria, Verdana, serif;
+}
+
+#chmc .button {
+    width: auto;
+
+    position: relative;
+    _position: relative;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 45%;
+    font: 17px Courier, Candara, Cambria, Verdana, serif; 
+    background: #57C;
+    padding: 3px 7px 3px 7px;
+    color: #EEE;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #4488CC;
+    cursor: pointer;
+}
+
+#chmc .button:hover {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #000;
+    color: #DABC27;
+    text-shadow: 0px 0px 0px #DABC27;
+}
+
+#chmc input[type='radio'] {
+    font: 40px Courier, Candara, Cambria, Verdana, serif;
+    line-height: 28px;
+}
+
+input[type='radio']:nth-child(11) {
+    display: inline-block;
+
+
+    /*font: 25px Courier, Candara, Cambria, Verdana, serif;*/
+    color:black;
+
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+/*************************/
+/***** The Animation *****/
+/*************************/
+
+@-moz-keyframes circles-loader {
+  0% {
+    -moz-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+  50% {
+    -moz-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
+@-webkit-keyframes circles-loader {
+  0% {
+    -webkit-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+  50% {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
+@keyframes circles-loader {
+  0% {
+    -moz-transform: rotate(-720deg);
+    -ms-transform: rotate(-720deg);
+    -webkit-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+  50% {
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
+/* :not(:required) hides this rule from IE9 and below */
+.circles-loader:not(:required) {
+  position: relative;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: rgba(255, 204, 51, 0.9);
+  border-radius: 100%;
+  -moz-animation: circles-loader 3s infinite ease-in-out;
+  -webkit-animation: circles-loader 3s infinite ease-in-out;
+  animation: circles-loader 3s infinite ease-in-out;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+.circles-loader:not(:required)::before {
+  background: rgba(255, 102, 0, 0.6);
+  border-radius: 100%;
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 16.75px;
+  left: -10.82532px;
+}
+.circles-loader:not(:required)::after {
+  background: rgba(255, 51, 0, 0.4);
+  border-radius: 100%;
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 16.75px;
+  left: 10.82532px;
+}
+
+/********************************/
+/***** End of the Animation *****/
+/********************************/
