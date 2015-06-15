@@ -23,7 +23,7 @@ Web-based Monitoring Service
 |Date and Time|Description|
 |:------------|:----------|
 |5/20 15:20-15:40|Project Proposal Presentation|
-
+|6/17 15:20-15:40|Final Project Demo|
 
 
 ## Requirements (goals)
